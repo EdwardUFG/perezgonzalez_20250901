@@ -71,7 +71,7 @@ public class Main {
             SE IMPRIME EL VALOR DE CADA CELDA DE LA MATRIZ (FILA,CLOUMNA)
             FILA: x COLUMNA:y
             */
-            System.out.println(matriz[x][y]+" ");
+            System.out.print(matriz[x][y]+" ");
             
             //se suman los valores de cada celda 
             suma += matriz [x][y];
