@@ -72,6 +72,7 @@ public class Main {
             SE IMPRIME EL VALOR DE CADA CELDA DE LA MATRIZ (FILA,CLOUMNA)
             FILA: x COLUMNA:y
             */
+             //correcion del orden de los numeros en el terminal   
             System.out.print(matriz[x][y]+" ");
             
             //se suman los valores de cada celda 
