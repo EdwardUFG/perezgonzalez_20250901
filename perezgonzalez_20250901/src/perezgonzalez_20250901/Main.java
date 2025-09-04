@@ -48,8 +48,9 @@ public class Main {
             ITERATIVA DE TIPO FOR
             DEBIDO A QUE DEBEMOS OBTENER EL VALOR 
             */
-            
-            for(int j = 0; j < matriz[j].length; j++){
+
+            //error en la iteracion de la matriz, estaba con matriz j cuando debia ser i
+            for(int j = 0; j < matriz[i].length; j++){
             //SE IMPRIME LA PETICION AL USUARIO
                 System.out.println("Elemento [ " +i+ "][" +j+ "]");
                 
